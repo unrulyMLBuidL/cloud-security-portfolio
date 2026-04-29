@@ -31,13 +31,24 @@ This directly solves the scenario: high availability + no bottleneck at peak hou
 
 ---
 
+## Architecture Diagram
+
+![S3 Static Website Hosting Architecture](00-architecture-diagram.png)
+
+This diagram shows the full request flow: city residents visit the web portal, 
+which invokes a GET request to the S3 bucket, which serves waves.html as the 
+root object. Access is controlled by a bucket policy allowing s3:GetObject.
+
+---
+
 ## Screenshots
 
-![S3 Buckets Page](screenshots/01-s3-buckets-overview.png)
-![Renaming index file to waves.html](screenshots/02-rename-index-waves.png)
-![Renaming error file to error.html](screenshots/03-rename-error.png)
-![Copying the S3 website endpoint URL](screenshots/04-copy-endpoint-url.png)
-![Website loading in browser](screenshots/05-website-live-in-browser.png)
+
+![S3 Buckets Page](01-s3-buckets-overview.png)
+![Renaming index file to waves.html](02-rename-index-waves.png)
+![Renaming error file to error.html](03-rename-error.png)
+![Copying the S3 website endpoint URL](04-copy-endpoint-url.png)
+![Website loading in browser](05-website-live-in-browser.png)
 
 ---
 
