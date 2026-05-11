@@ -1,10 +1,13 @@
 # HTB CTF Write-Up: Appointment — SQL Injection
 
 **Date:** 11/05/2026
+
 **Platform:** HackTheBox Starting Point
+
 **Machine:** Appointment
-**Difficulty:** Very Easy (Tier 1)
+
 **Category:** Web Application, SQL Injection
+
 **Status:** ✅ Pwned — Flag Captured
 
 ---
