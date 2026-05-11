@@ -8,3 +8,5 @@ Documentation of my practical activities on AWS and Cloud Security
 | OpenVPN + Kali Setup | Setup | ✅ Done | [Write-Up](tools-setup/openvpn-htb-kali.md) |
 
 | Appointment — SQL Injection | Web App / SQLi | Very Easy | ✅ Pwned | [Write-Up](hackthebox/starting-point/appointment-sql-injection.md) |
+
+| Sequel — MySQL DB Enumeration | Database / MySQL | Very Easy | ✅ Pwned | [Write-Up](hackthebox/starting-point/sequel-mysql-enumeration.md) |
